@@ -2,7 +2,7 @@ body{
     background:linear-gradient(to bottom, rgb(4, 81, 125),rgb(10, 53, 103),rgb(2, 33, 87),rgb(1, 40, 84));
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 70%;
     margin: 0 auto;
 }
@@ -26,7 +26,43 @@ h1,h2{
     background-color: rgb(12, 55, 95);
     color: white;
     font-size: 1.2rem;
+    border: 2px solid rgb(97, 112, 223);
 }
 #btnInfo:hover{
     background-color: rgb(3, 46, 80);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.section1,.section2,.section3{
+    text-align: center;
+    color: white;
+}
+.contenedor-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btnAceptar{
+    border:2px solid black;
+    padding: 0.5rem 1.5rem;
+    background: green;
+    color: white;
+    font-size: 1rem;
+}
+
+.btnEliminar{
+    border:2px solid black;
+    padding: 0.5rem 1.5rem;
+    background: red;
+    color: white;
+    font-size: 1rem;
+}
+.btnAceptar:hover{
+    background: rgb(1, 113, 1);
+}
+.btnEliminar:hover{
+    background: rgb(192, 0, 0);
 }
