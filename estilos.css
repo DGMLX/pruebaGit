@@ -1,0 +1,11 @@
+body{
+    background:linear-gradient(to bottom, rgb(4, 81, 125),rgb(10, 53, 103),rgb(2, 33, 87),rgb(1, 40, 84));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+}
