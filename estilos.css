@@ -3,9 +3,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 70%;
+    margin: 0 auto;
 }
-h1{
+h1,h2{
     color:white;
     text-align: center;
     margin-top: 2rem;
+}
+
+.parrafo1{
+    text-align:center;
+    color: white;
+    font-size: 1.5rem;
+}
+#btnInfo{
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    border: none;
+    background-color: rgb(12, 55, 95);
+    color: white;
+    font-size: 1.2rem;
+}
+#btnInfo:hover{
+    background-color: rgb(3, 46, 80);
 }
